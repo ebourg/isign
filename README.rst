@@ -40,12 +40,12 @@ Mac OS X
 ~~~~~~~~
 
 On Mac OS X, there are a lot of prerequisites, so the ``pip`` method probably won't work.
-The easiest method is to use ``git`` to clone the `source code repository <https://github.com/saucelabs/isign>`__ and 
+The easiest method is to use ``git`` to clone the `source code repository <https://github.com/apperian/isign>`__ and 
 run the install script:
 
 .. code::
 
-  $ git clone https://github.com/saucelabs/isign.git
+  $ git clone https://github.com/apperian/isign
   $ cd isign
   $ sudo ./INSTALL.sh
 
@@ -59,7 +59,7 @@ and Mac OS X. However, you will need a Mac to export your Apple developer
 credentials. 
 
 If you're like most iOS developers, credentials are confusing -- if so check out 
-the `documentation on credentials <https://github.com/saucelabs/isign/blob/master/docs/credentials.rst>`__ on Github.
+the `documentation on credentials <https://github.com/apperian/isign/blob/master/docs/credentials.rst>`__ on Github.
 
 You should have a key and certificate in 
 `Keychain Access <https://en.wikipedia.org/wiki/Keychain_(software)>`__,
@@ -212,7 +212,7 @@ Contributing
 Sauce Labs open source projects have a `Code of Conduct <CONDUCT.md>`__. In short, we try to respect each other, 
 listen, and be helpful.
 
-Development happens on `our Github repository <https://github.com/saucelabs/isign>`__. File an issue, or fork the code!
+Development happens on `our Github repository <https://github.com/apperian/isign>`__. File an issue, or fork the code!
 
 You'll probably want to create some kind of python virtualenv, so you don't have to touch your system python or its 
 libraries. `virtualenvwrapper <https://virtualenvwrapper.readthedocs.org/en/latest/>`__ is a good tool for this.
@@ -221,12 +221,12 @@ Then, just do the following:
 
 .. code::
 
-  $ git clone https://github.com/saucelabs/isign.git
+  $ git clone https://github.com/apperian/isign
   $ cd isign
   $ dev/setup.sh 
   $ ./run_tests.sh
 
-If the tests don't pass please `file an issue <https://github.com/saucelabs/isign/issues>`__. Please keep the tests up to date as you develop.
+If the tests don't pass please `file an issue <https://github.com/apperian/isign/issues>`__. Please keep the tests up to date as you develop.
 
 Note: some tests require Apple's
 `codesign <https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/codesign.1.html>`__
